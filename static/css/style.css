@@ -1,0 +1,117 @@
+*{
+	margin: 0;
+	padding: 0;
+	}
+	body{
+		background: url(early-signs-of-brain-tumour.jpg) no-repeat center center fixed;
+		background-size: cover;
+		background-image:url('early-signs-of-brain-tumour.jpg')
+	}
+	
+	.container{ 
+		color: white;
+		position: absolute;
+		top: 25%;
+		left: 40%; 
+	}
+
+	.container h1{
+		font-family: 'Heebo', sans-serif;
+		width: 50%;
+		display: inline-block;
+		font-size: 40px;
+		border-bottom: 5px solid purple;
+		margin-bottom: 15px;
+		padding: 13px 0;
+	}
+
+	.box{
+		width: 100%; 
+		margin: 22px 0px;
+		border-bottom: 2px solid purple;
+	}
+
+	.box input{  
+		background: none;
+		width: 75%;
+		padding: 5px 10px;
+		font-size: 20px;
+		border: none;
+		outline:none;
+		color: white;
+	}
+
+	.btn{
+		color: white;
+		cursor: pointer;
+		outline: none; 
+		margin: 12px 0;
+		padding: 10px 21px;
+		border: 2px solid purple;
+		border-radius: 10px;
+		font-size: 18px;
+		background: none;
+		font-weight: bold;
+		
+	}
+	body{
+	margin:0;
+	padding:0;
+	background:#fff;
+	font-family: 'Raleway',sans-serif;
+	color: #fff;
+}
+.banner{
+	height: 100vh;
+	width: 100%;
+	background:url('early-signs-of-brain-tumour.jpg'),url('early-signs-of-brain-tumour.jpg');
+	background-position: top;
+	background-size:cover;
+	/*background-attachment: fixed;*/
+	background-repeat: no-repeat;
+}
+.banner .navbar{
+	margin-top:4%;
+}
+.banner .navbar-brand{
+	color: #fff;
+	font-size:1.8em;
+	font-weight: 700;
+	margin-left: 10%;
+}
+.banner .nav{
+	margin-right:10%;
+}
+.banner .nav li a{
+	color:#aaa;
+	font-size: 1.2em;
+}
+.banner .info{
+	margin-top:15%;
+	transform: translateY(-15%);
+}
+.banner .info h1{
+	font-size: 2.5em;
+	font-weight: 700;
+	color: #fff;
+	letter-spacing: 2px;
+}
+.banner .info p{
+	font-size: 2em;
+	font-weight: 500;
+	color: #aaa;
+	letter-spacing: 2px;
+}
+.banner .info a{
+	margin-left:50%;
+	transform: translateX(-50%);
+	color: #fff;
+	background: #e91d43;
+	padding:10px 20px;
+	font-size: 2em;
+	font-weight: 600;
+}
+.banner .info a:hover{
+	background: #e91e63;
+}
+
